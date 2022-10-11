@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- 上面这个是HTML5网页的声明的 -->
+
+<html lang="zh">
+<head>
+    <!-- head标签内定义了网页的属性 -->
+
+    <meta charset="UTF-8">
+    <!-- 定义网页的编码格式为UTF-8 -->
+
+    <title> HTML笔记 </title>
+    <!-- 标签页显示为“HTML笔记” -->
+
+    <base href="" target="">
+    <!-- base是放默认地址的地方,html会从base的地址下寻找文件 -->
+
+</head>
+
+<body>
+    <!-- body标签页内是网页的可见内容 -->
+
+    <h1>这是h1标签</h1>
+    <h2>这是h2标签</h2>
+    <h3>这是h3标签</h3>
+    <h4>这是h4标签</h4>
+    <h5>这是h5标签</h5>
+    <h6>这是h6标签</h6>
+    <!-- h1,h2,h3,h4,h5,h6s都是标题标签，h1最大，h6最小 -->
+
+    <p>这是段落标签</p>
+    <!-- 各种标签 -->
+
+    <a href="uname.html">点我可以跳转到uname.html页面</a><br>
+    <!-- a标签是超链接标签，在href处填跳转地址或文件-->
+    <a href="uname2.html" target="_blank">点我可以跳转到新建窗口并跳转到uname2.html页面</a><br>
+    <!-- target="_blank"是新建窗口并打开 -->
+
+    <img src="img.png" width="100" height="100" alt="这是img.png" title="img.png"><br>
+    <!-- 图片标签，src填地址，width填宽,height填高，alt填图片显示出错显示的文字，当鼠标停留在图片上时显示title的内容 -->
+
+    <p>
+        这是各种标签<br>
+        这是<br>换行
+        <br>这是<hr>换行线
+        <br>这是<b>粗体</b>
+        <br>这是<em>着重文字</em>
+        <br>这是<i>斜体字</i>
+        <br>这是<small>小号字</small>
+        <br>这是<strong>着重语气</strong>
+        <br>这是<sub>下标字</sub>
+        <br>这是<sup>上标字</sup>
+        <br>这是<ins>插入字</ins>
+        <br>这是<del>删除线</del>
+    </p> 
+    <!-- 这是各种标签 -->
+    
+    <h4>表格</h4>
+    <table cellpadding="5px" cellspacing="2px">
+        <!-- tr定义行，td定义列 -->
+        <!-- cellpadding="5px"意为把表格单元间的内容和表格单元边的间距设置成5px;cellspacing="2px"意为把单元格之间的空隙设置为2px -->
+        <tr>
+            <td> 1 </td>
+            <td> 2 </td>
+            <td> 3 </td>
+        </tr>
+        <tr>
+            <td> 4 </td>
+            <td> 5 </td>
+            <td> 6 </td>
+        </tr>        
+    </table>
+    
+    <h1>无序列表</h1>
+    <ul>
+        <li>
+            报警电话110
+        </li>
+    </ul>
+    <h1>有序列表(带数字)</h1>
+    <ol>
+        <li>
+            救援电话120
+        </li>
+    </ol>
+    <dl>
+        <dt>咖啡</dt>
+        <dd>- 手冲咖啡</dd>
+        <dt>虚拟歌姬</dt>
+        <dd>- 初音未来</dd>
+    </dl>
+    
+    <h4>音频标签</h4>
+    <audio src="lib\耍把戏.mp3" controls></audio>
+    <h4>视频标签</h4>
+    <video src="lib\耍把戏(鬼畜).mp4" controls></video>
+
+    <h1>Input模块</h1>
+    <div style="width: 300px;background-color: antiquewhite;">
+        <div style="width: 250px;">
+            <h1 style="text-align: center;">账号注册</h1>
+            <h3 style="text-align: center;">邮箱注册</h3>
+            <form action="#">
+                <!-- 注册的信息将会被发送到#页面 -->
+
+                您的邮箱：<input type="email" name="e-mail"><br>
+                <!-- email标签会检查并提示用户邮件格式哪里不对 -->
+
+                请输入密码：<input type="password" name="password"><br>
+                请再次输入密码：<input type="password" name="password2"><br>
+                <!-- password格式会隐藏用户输入的密码 -->
+
+                性别:&nbsp;男<input type="radio" name="g" value="男">女<input type="radio" name="b" value="女"><br>
+                <!-- radio理解为单选标签，选择标签后返回的是value的值 -->
+                
+                城市:
+                <select size="1">
+                    <option value="北京">北京</option>
+                    <option value="天津">天津</option>
+                    <option value="上海">上海</option>
+                    <option value="深圳">深圳</option>
+                    <option value="其他">其他</option>
+                </select><br>
+                爱好:
+                <input type="checkbox" name="vehicle[]" value="a"> 篮球
+                <input type="checkbox" name="vehicle[]" value="b"> 足球
+                <input type="checkbox" name="vehicle[]" value="c"> 坤哥<br>
+                介绍一下自己：<textarea name="js" rows="5" cols="20">这个人很懒，什么都没有写~</textarea><br>
+                <input type="submit">
+            </form>
+</body>
+</html>

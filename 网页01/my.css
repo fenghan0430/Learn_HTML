@@ -1,0 +1,68 @@
+body{
+    margin:0px; padding:0px;
+}
+
+#navigtion{
+    margin:0px; padding:0px;
+    /*删除导航栏内外边距*/
+}
+
+#navigation li{
+    /* 导航栏 */
+    float:left; 
+	text-align:center;
+	width:78px;
+    background-color: antiquewhite;
+    /*栏内元素向左浮动，文字居中，宽为78px*/
+}
+
+#navigation ul{
+    list-style:none;
+	padding:0px; margin:0px;
+    /*去掉列表的点，删除内外边距*/
+}
+
+#left{
+    width: 234px;
+    margin:0px; padding:0px;
+}
+
+#weather{
+    background-color: aqua;
+    padding:0px; margin:0px;
+}
+
+#weather h1{
+    text-align: center;
+    padding:0px; margin:0px;
+}
+
+#weather ul{
+    list-style:none;/*去掉列表的点*/
+    padding:0px; margin:0px;
+}
+
+#weather li{
+    font-size: 15px;
+    text-align: center;
+    padding:0px; margin:0px;
+}
+
+#recommend{
+    width: 234px;
+    background-color: rgb(0, 162, 255);
+    padding:0px; margin:0px;
+}
+
+#recommend h1{
+    padding:0px; margin:0px;
+    text-align: center;
+}
+
+#rencommend ul{
+    list-style:none;
+}
+
+#rencommend li{
+    text-align: center;
+}

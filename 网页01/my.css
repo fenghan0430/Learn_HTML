@@ -1,5 +1,13 @@
+*{
+    margin:0px; padding:0px;
+}
+
 body{
     margin:0px; padding:0px;
+}
+
+#boss{
+    width: 780px;height: auto;margin: 0 auto;
 }
 
 #navigtion{
@@ -83,6 +91,7 @@ body{
 #beautiful h1{
     padding:0px; margin: 0px;
     float: left;
+    width: 390px;
 }
 
 #route h3{
@@ -93,4 +102,46 @@ body{
     float: left;
     list-style:none;
     font-size: 14px;
+}
+
+#right{
+    float: right;
+    width: 156px;
+}
+
+#eat ul{
+    list-style:none;
+    text-align: center;
+    padding: 2px auto;
+    
+}
+
+#eat h1{
+    text-align: center;
+}
+
+#eat li{
+    font-size: 23px;
+}
+
+#live ul{
+    list-style:none;
+    text-align: center;
+    padding: 2px auto;
+    
+}
+
+#live h1{
+    text-align: center;
+}
+
+#live li{
+    font-size: 23px;
+}
+
+#bottem{
+    text-align: center;
+    background-color: aquamarine;
+    clear: left;
+    clear: right;
 }

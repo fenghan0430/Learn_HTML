@@ -16,12 +16,26 @@ body{
     background-color: aliceblue;
 }
 #text_head{
-    text-align: center;
     width: auto;
     height: 40px;
     background-color: #2c9bce;
     color: #e6bf13;
+    text-align: center;
 }
 #introduce{
     text-align: center;
+}
+#word{
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+}
+#back{
+    height: 20px;
+    width: auto;
+    background-color: #22c6be;
+    text-align: center;
+}
+#back_a{
+    text-decoration: none;
 }

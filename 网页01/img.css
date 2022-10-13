@@ -1,0 +1,27 @@
+*{
+    margin: 0px; padding: 0px;
+}
+body{
+    background-color: #2286c6;
+}
+#bottem{
+    text-align: center;
+    background-color: aquamarine;
+    clear: left;
+}
+#main{
+    width: 780px;
+    height: auto;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+#text_head{
+    text-align: center;
+    width: auto;
+    height: 40px;
+    background-color: #2c9bce;
+    color: #e6bf13;
+}
+#introduce{
+    text-align: center;
+}

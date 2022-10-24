@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>图库</title>
     <style>
-        *{
+        * {
             margin: 0px;
             padding: 0px;
         }
-        body{
+
+        body {
             background-color: #54bbeb70;
         }
-        #boss{
+
+        #boss {
             width: 1000px;
             margin: 0 auto;
             background-color: #f5f5f7b6;
         }
-        #name{
+
+        #name {
             color: rgb(255, 195, 65);
         }
-        #navigation ul{
+
+        #navigation ul {
             list-style: none;
         }
-        #navigation li{
+
+        #navigation li {
             width: 248px;
             padding: 5px 0 5px 0;
             text-align: center;
@@ -32,25 +38,66 @@
             float: left;
             border: 1px double #000;
         }
-        #picture{
+
+        #picture {
             padding: 10px 40px 10px 40px;
             border-spacing: "25px";
             text-align: center;
         }
-        #bottom{
-            clear:both;
+
+        #bottom {
+            clear: both;
             text-align: center;
             background-color: #1684ce;
             color: rgb(206, 213, 219);
         }
-        .pic{
+
+        .pic {
             height: 360px;
         }
     </style>
+    <script type="text/javascript">
+
+        function fn1() {
+
+            var t = document.getElementById('boss');
+
+            if (t.style.display === 'none') {
+
+                t.style.display = 'block';// 以块级元素显示
+
+            } else {
+
+                t.style.display = 'none'; // 隐藏
+
+            }
+
+        }
+
+        function fn2() {
+
+            var t = document.getElementById('boss');
+
+            if (t.style.visibility === 'hidden') {
+
+                t.style.visibility = 'visible';
+
+            } else {
+
+                t.style.visibility = 'hidden';
+
+            }
+
+        }
+
+    </script>
 </head>
+
 <body>
     <div id="boss">
-        <div id="name"><h1>Picture</h1></div>
+        <div id="name">
+            <h1>Picture</h1>
+        </div>
         <div id="navigation">
             <ul>
                 <li>首页</li>
@@ -62,20 +109,32 @@
         <div id="picture">
             <table cellspacing="50px">
                 <tr>
-                    <td><img class="pic" src="./images/kk1.png" title="点击查看大图"><br>ケモミミちゃんつめあわせ!</td>
-                    <td><img class="pic" src="./images/kk2.png" title="点击查看大图"><br>ケモミミちゃんつめあわせ-2!</td>
-                    <td><img class="pic" src="./images/miku1.png" title="点击查看大图"><br>Hatsune Miku</td>
+                    <td><img class="pic" src="./images/kk1.png" title="点击切换背景"><br>ケモミミちゃんつめあわせ!</td>
+                    <td><img class="pic" src="./images/kk2.png" title="点击查看背景"><br>ケモミミちゃんつめあわせ-2!</td>
+                    <td><img class="pic" src="./images/miku1.png" title="点击查看背景"><br>Hatsune Miku</td>
                 </tr>
                 <tr>
-                    <td><img class="pic" src="./images/myn1.png" title="点击查看大图"><br>Nekoha Shizuku</td>
-                    <td><img class="pic" src="./images/dlk.jpg" title="点击查看大图"><br>也许...是迪卢克？</td>
-                    <td><img class="pic" src="./images/ecy.jpg" title="点击查看大图"><br>メイド響ちゃん</td>
+                    <td><img class="pic" src="./images/myn1.png" title="点击查看背景"><br>Nekoha Shizuku</td>
+                    <td><img class="pic" src="./images/dlk.jpg" title="点击查看背景"><br>也许...是迪卢克？</td>
+                    <td><img class="pic" src="./images/ecy.jpg" title="点击查看背景"><br>メイド響ちゃん</td>
                 </tr>
             </table>
         </div>
+        <button onclick="fn1()">关灯</button>
         <div id="bottom">
             <p>fenghan0430 © 版权所有</p>
         </div>
     </div>
 </body>
+
+<script>
+    var btnpic = document.getElementsByClassName('pic');
+    for (i = 0; i < btnpic.length; i++) {
+        btnpic[i].onclick = function () {
+            console.log(this.src);
+            document.body.style.backgroundImage = "url(" + this.src + ")";
+        }
+    }
+</script>
+
 </html>

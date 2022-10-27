@@ -111,6 +111,7 @@
         点我开关灯
     </div>
 </body>
+<<<<<<< HEAD
 
 <script>
     var btnpic = document.getElementsByClassName('pic');
@@ -118,6 +119,13 @@
         btnpic[i].onclick = function () {
             console.log(this.src);
             document.body.style.backgroundImage = "url(" + this.src + ")";
+=======
+<script>
+    var butimg = document.getElementsByClassName("pic");
+    for (var i = 0; i < butimg.length; i++) {
+        butimg[i].onclick = function () {
+            document.body.style.backgroundImage = "url(" + this.src + ")"
+>>>>>>> main
         }
     }
 </script>

@@ -1,15 +1,128 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>调查问卷</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
+
 <body>
-    <div class="boss">
-        <h1></h1>
+    <div class="main">
+        <div class="head_title">
+            <h1>统一建模理论测试</h1>
+            <hr>
+        </div>
+        <div class="head_text">
+            <table border="0">
+                <tr>
+                    <td>考试科目:统一建模语言</td>
+                    <td>时间:100分钟</td>
+                    <td>成绩:</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div class="name">
+            <table>
+                <tr>
+                    <td>班级(必填): <input type="text" name="myclass"></td>
+                    <td>学号(必填): <input type="text" name="mynumber"></td>
+                    <td>姓名(必填): <input type="text" name="myname"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="timu">
+            <div class="timu_name">一、填空题（每空五分，共二十分）</div>
+            <div class="timu_box">
+                <div class="timu_tiankong">1.UML的全名是 <br> <input type="text" name="01"></div>
+                <div class="timu_tiankong">
+                    1.UML的全名是 <br>
+                    <input type="text" name="02">
+                    <input type="text" name="03">
+                    <input type="text" name="04">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="timu">
+            <div class="timu_name">
+                二、选择题（每题十分，共二十分）
+            </div>
+            <div class="timu_box">
+                我是题目<br>
+
+                <input type="radio" name="05" value="T">我是A<br>
+                <input type="radio" name="05" value="F">我是B<br>
+                <input type="radio" name="05" value="F">我是C<br>
+                <input type="radio" name="05" value="F">我是D<br>
+                我是题目<br>
+                <input type="radio" name="06" value="T">我是A<br>
+                <input type="radio" name="06" value="F">我是B<br>
+                <input type="radio" name="06" value="F">我是C<br>
+                <input type="radio" name="06" value="F">我是D<br>
+            </div>
+        </div>
+
+
+        <div class="timu">
+            <div class="timu_name">
+                二、选择题（每题十分，共二十分）
+            </div>
+            <div class="timu_box">
+                我是题目<br>
+                <input type="checkbox" name="06" value="T">我是A<br>
+                <input type="checkbox" name="06" value="F">我是B<br>
+                <input type="checkbox" name="06" value="F">我是C<br>
+                <input type="checkbox" name="06" value="F">我是D<br>
+            
+                我是题目<br>
+                <input type="checkbox" name="07" value="T">我是A<br>
+                <input type="checkbox" name="07" value="F">我是B<br>
+                <input type="checkbox" name="07" value="F">我是C<br>
+                <input type="checkbox" name="07" value="F">我是D<br>    
+            </div>
+        </div>
+
+
+
+
+        <div class="timu">
+            
+            <div class="timu_name">
+                四、判断题（每题十分，共二十分）
+            </div>
+            <div class="timu_box">
+                我是题目&nbsp;
+                <input type="radio" name="08" value="T">√&nbsp;
+                <input type="radio" name="08" value="F">X&nbsp;
+                我是题目&nbsp;
+                <input type="radio" name="08" value="T">√&nbsp;
+                <input type="radio" name="08" value="F">X&nbsp;
+            </div>
+
+        </div>
+
+
+        <div class="timu">
+            <div class="timu_name">
+                五、简答题（每题二十分，共二十分）
+            </div>
+            <div class="timu_box">
+                我是题目<br>
+                <textarea rows="10" cols="30"></textarea>
+            </div>
+        </div>
+
+
+        <div class="tijiao">
+            <input type="submit" value="计算成绩">
+        </div>
+        </form>
     </div>
-    
 </body>
+
 </html>

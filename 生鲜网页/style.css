@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.head_nav{
+    height: 40px;
+    line-height: 40px;
+    width: 1200px;
+    background-color: #f7f7f7;
+}
+.wel{
+    float: left;
+    color: #838280;
+
+}
+.user{
+    float: right;
+}
+.user a{
+    text-decoration: none;
+    color: #838280;
+}
+.sch{
+    height: 200px;
+    width: 1200px;
+}
+.ttsx{
+    float: left;
+    width: 120px;
+    margin: 50px 0 auto 0;
+}
+.sch_b_input input{
+    width: 300px;
+    height: 60px;
+    border: 1px solid #e2e2e2;
+    background-image: url(./picture/sch.png);
+    background-repeat: no-repeat;
+    background-size: 600px 60px;
+    background-position:5px center;
+    padding:0 0 0 50px;
+    float: left;
+    font-size: 20px;
+    color: #504f4d;
+    margin: 50px 0 auto 120px;
+    
+}
+.sch_b_sub{
+    height: 60px;
+    width: 100px;
+    line-height: 60px;
+    background: #37ab40;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    margin: 50px 0 auto 0px;
+}
+.buy_car_new{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #e2e2e2;
+    background-image: url(./picture/buy_car.png);
+    background-repeat: no-repeat;
+    background-size: 200px 60px;
+    background-position:5px center;
+    padding:0 0 0 80px;
+    float: left;
+    font-size: 20px;
+    color: #71e44e;
+    margin: 55px 0 auto 100px;
+    
+}
+.buy_car_unmber{
+    height: 50px;
+    width: 60px;
+    line-height: 50px;
+    background: orange;
+    color: yellow;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    font-size: 25px;
+    margin: 55px 0 auto 0px;
+}
+.nav2{
+    width: 1200px;
+    float: left;
+    border-bottom: green solid 3px;
+}
+.nav3{
+    float: left;
+    padding: 0 0 0 40px;
+    
+}
+.nav3 span{
+    float: left;
+    height: 60px;
+    line-height: 60px;
+}
+.nav3 a{
+    width: 80px;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: #504f4d;
+}
+.fenglei_1{
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    background-color: green;
+    text-align: center;
+    color: white;
+    float: left;
+    clear: both;
+}
+.fenglei{
+    float: left;
+    width: 200px;
+}
+.fenglei_0{
+    float: left;
+    width: 200px;
+    height: auto;
+}
+.fenglei_0 ul{
+    list-style: none;
+}
+.fenglei_0 li{
+    list-style: none;
+}
+.fenglei_2{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background-image: url(./picture/fenglei_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 40px;
+    background-position:5px center;
+    border-left: 1px solid #504f4d;
+    border-bottom: 1px solid #504f4d;
+    text-align: center;
+    float: left;
+    font-size: 15px;
+    color: #000;
+}
+.fenglei_3{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background-image: url(./picture/fenglei_3.png);
+    background-repeat: no-repeat;
+    background-size: 200px 40px;
+    background-position:5px center;
+    border-left: 1px solid #504f4d;
+    border-bottom: 1px solid #504f4d;
+    text-align: center;
+    float: left;
+    font-size: 15px;
+    color: #000;
+}
+.fenglei_4{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background-image: url(./picture/fenglei_4.png);
+    background-repeat: no-repeat;
+    background-size: 200px 40px;
+    background-position:5px center;
+    border-left: 1px solid #504f4d;
+    border-bottom: 1px solid #504f4d;
+    text-align: center;
+    float: left;
+    font-size: 15px;
+    color: #000;
+}
+.fenglei_5{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background-image: url(./picture/fenglei_5.png);
+    background-repeat: no-repeat;
+    background-size: 200px 40px;
+    background-position:5px center;
+    float: left;
+    font-size: 15px;
+    color: #000;
+    border-left: 1px solid #504f4d;
+    border-bottom: 1px solid #504f4d;
+    text-align: center;
+}
+.fenglei_6{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background-image: url(./picture/fenglei_6.png);
+    background-repeat: no-repeat;
+    background-size: 200px 40px;
+    background-position:5px center;
+    float: left;
+    font-size: 15px;
+    color: #000;
+    border-left: 1px solid #504f4d;
+    border-bottom: 1px solid #504f4d;
+    text-align: center;
+}
+.fenglei_7{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background-image: url(./picture/fenglei_7.png);
+    background-repeat: no-repeat;
+    background-size: 200px 40px;
+    background-position:5px center;
+    border-left: 1px solid #504f4d;
+    border-bottom: 1px solid #504f4d;
+    text-align: center;
+    float: left;
+    font-size: 15px;
+    color: #000;
+}
+.ming{
+    float: left;
+}
+.ming img{
+    height: 246px;
+}
+.nav44{
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 22px;
+    color: green;
+    clear: both;
+    float: left;
+}
+.nav4{
+    width: 1200px;
+    float: left;
+    clear: both;
+    border-bottom: 3px solid green;
+}
+.nav4 a{
+    width: 80px;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: #504f4d;
+}
+.fit1{
+    width: 200px;
+    height: 300px;
+    line-height: 300px;
+    background-image: url(./picture/fit1.png);
+    background-repeat: no-repeat;
+    background-size: 200px 300px;
+    background-position:5px center;
+    clear: both;
+    float: left;
+}
+.fit2{
+    width: 200px;
+    height: 300px;
+    line-height: 300px;
+    background-image: url(./picture/fit2.png);
+    background-repeat: no-repeat;
+    background-size: 200px 300px;
+    background-position:5px center;
+
+    float: left;
+}
+.fit3{
+    width: 200px;
+    height: 300px;
+    line-height: 300px;
+    background-image: url(./picture/fit3.png);
+    background-repeat: no-repeat;
+    background-size: 200px 300px;
+    background-position:5px center;
+
+    float: left;
+}
+.fit4{
+    width: 200px;
+    height: 300px;
+    line-height: 300px;
+    background-image: url(./picture/fit4.png);
+    background-repeat: no-repeat;
+    background-size: 200px 300px;
+    background-position:5px center;
+
+    float: left;
+}
+.fit5{
+    width: 200px;
+    height: 300px;
+    line-height: 300px;
+    background-image: url(./picture/fit5.png);
+    background-repeat: no-repeat;
+    background-size: 200px 300px;
+    background-position:5px center;
+    float: left;
+}

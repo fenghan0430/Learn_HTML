@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 900px;
+    height: auto;
+    padding: 10px;
+    margin: 50px auto;
+}
+.head_title{
+    text-align: center;
+}
+.head_text{
+    margin: 10px auto;
+    width: 900px;
+    border: 1px solid #5a5a5a;
+    
+}
+.head_text td{
+    width: 299px;
+    height: 40px;
+} 
+.name{
+    clear: left;
+    margin: 10px auto;
+    width: 900px;
+    border: 1px solid #5a5a5a;
+}
+.name td{
+    width: 299px;
+    height: 40px;
+}
+.timu_name{
+    background-color: #5a5a5a;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+}
+.timu_box{
+    border-right: 1px solid #5a5a5a;
+    border-left: 1px solid #5a5a5a;
+    border-bottom: 1px solid #5a5a5a;
+}
+.timu{
+    margin-top: 20px;
+}
+.tijiao{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
